@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.IntStream;
+import java.util.Random;
 import java.util.stream.Stream;
 
 /**
@@ -27,12 +27,12 @@ public class AbraKaDabra {
         System.out.println();
 
 
-        IntStream.generate(()->((int)(2*(Math.random()-0.5)*Integer.MAX_VALUE)))
+        new Random().ints()
                 .limit(10)
                 .forEach(System.out::println);
 
         System.out.println();
-        IntStream.generate(()->((int)(2*(Math.random()-0.5)*Integer.MAX_VALUE)))
+        new Random().ints()
                 .limit(10)
                 .filter(n->(n>=0))
                 .sorted()
@@ -40,7 +40,7 @@ public class AbraKaDabra {
 
 
         System.out.println();
-        IntStream.generate(()->((int)(2*(Math.random()-0.5)*Integer.MAX_VALUE)))
+        new Random().ints()
                 .limit(10)
                 .sorted()
                 .forEach(System.out::println);
