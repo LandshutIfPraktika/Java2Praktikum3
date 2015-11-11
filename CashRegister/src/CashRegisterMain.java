@@ -39,11 +39,15 @@ public class CashRegisterMain {
                 .collect(Collectors.toList()));
 
 
-        //Fancy
         System.out.println(customerList.stream()
-                .map(Customer::getItems)
-                .collect(ArrayList<Item>::new, List::addAll, List::addAll).stream()
+                .flatMap(c -> c.getItems().stream())
                 .count());
+
+        System.out.println(customerList.stream()
+                .flatMap(c->c.getItems().stream())
+                .mapToInt(Item::getPrice)
+                .sum());
+
 
     }
 }
