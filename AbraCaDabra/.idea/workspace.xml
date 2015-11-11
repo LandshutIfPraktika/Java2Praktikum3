@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8f97138-8446-4291-9ee7-0c1fe27419bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CashRegister/src/CashRegisterMain.java" afterPath="$PROJECT_DIR$/../CashRegister/src/CashRegisterMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AbraCaDabra.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="AbraKaDabra.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AbraKaDabra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8764608">
+            <state vertical-scroll-proportion="0.57929885">
               <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
@@ -451,12 +450,12 @@
       <updated>1447086580158</updated>
       <workItem from="1447086584366" duration="3908000" />
       <workItem from="1447244907961" duration="98000" />
-      <workItem from="1447247860688" duration="1287000" />
+      <workItem from="1447247860688" duration="1448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5293000" />
+    <option name="totallyTimeSpent" value="5454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -526,7 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AbraKaDabra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8764608">
+        <state vertical-scroll-proportion="0.57929885">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>

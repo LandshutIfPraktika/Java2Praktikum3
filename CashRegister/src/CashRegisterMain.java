@@ -16,7 +16,7 @@ public class CashRegisterMain {
         Item computer = new Item("Computer", 1000);
 
         Customer grace = new Customer("Grace", 1945, Arrays.asList(pear, ham));
-        Customer bob = new Customer("Bob", 1951, Arrays.asList(pear));
+        Customer bob = new Customer("Bob", 1951, Collections.singletonList(pear));
         Customer steve = new Customer("Steve", 1955, Arrays.asList(ham, beer, computer));
         Customer ada = new Customer("Ada", 1815, new ArrayList<>());
 
@@ -44,7 +44,7 @@ public class CashRegisterMain {
                 .count());
 
         System.out.println(customerList.stream()
-                .flatMap(c->c.getItems().stream())
+                .flatMap(c -> c.getItems().stream())
                 .mapToInt(Item::getPrice)
                 .sum());
 

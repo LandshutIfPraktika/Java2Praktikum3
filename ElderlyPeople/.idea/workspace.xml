@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46145ead-3c2c-4eb1-b5f2-146dbb10b6a3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CashRegister/src/CashRegisterMain.java" afterPath="$PROJECT_DIR$/../CashRegister/src/CashRegisterMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AbraCaDabra/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AbraCaDabra/.idea/workspace.xml" />
     </list>
     <ignored path="ElderlyPeople.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -467,12 +466,12 @@
       <workItem from="1447094199538" duration="41000" />
       <workItem from="1447094293308" duration="1356000" />
       <workItem from="1447243909339" duration="301000" />
-      <workItem from="1447248723529" duration="423000" />
+      <workItem from="1447248723529" duration="584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2121000" />
+    <option name="totallyTimeSpent" value="2282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
